@@ -1,0 +1,69 @@
+/* Main-message animations*/
+@keyframes slide-down{
+    0%{
+        opacity: 0%;
+        transform: translateY(-10rem);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(initial);
+    }
+}
+
+
+@keyframes appear {
+  0% {
+    opacity: 0%;
+  }
+  70% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes appear-slow {
+  0% {
+    opacity: 0%;
+  }
+  79%{
+    transform: translateY();
+  }
+  80% {
+    opacity: 0%;
+    transform: translateY(initial)
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+/*Animations for h1 and h3*/
+#main-h3{
+    animation: 700ms ease-out 0s 1 slide-down;
+}
+#main-h1{
+    animation: 700ms ease-out 0s 1 slide-down;
+}
+
+/*Animations for <p>*/
+
+#main-p-1 {
+  animation: 2000ms ease-out 0s 1 appear;
+}
+
+#main-p-2 {
+  animation: 3500ms ease-out 0s 1 appear;
+}
+
+#main-p-3 {
+  animation: 5500ms ease-out 0s 1 appear;
+}
+
+#main-btn {
+  animation: 7000ms ease-out 0s 1 appear-slow;
+}
+/*End of animations for main p*/
+
