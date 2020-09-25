@@ -388,7 +388,7 @@
         <div class="container">
           <h1>Commission Request</h1>
           <!--Formulary-->
-          <form name="myForm" id="myForm" onSubmit="return validateForm();">
+          <form name="myForm" id="myForm" onSubmit="validateForm(); alert('This is a testing site only, you still cannot send any pacts.'); return false">
             <div class="personal-data form-title">
               <h3>Personal Data</h3>
               <label for="fname">First name:</label>
@@ -500,7 +500,7 @@
 
             <!--Submit-->
             <div class="submit">
-              <input type="submit" value="Send the Pact" />
+              <input type="submit" value="Send the Pact" onsubmit="alert('This is a testing site only, you still cannot send any pacts.'); return false"/>
             </div>
           </form>
         </div>

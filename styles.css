@@ -41,9 +41,11 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
+  position: relative;
   font-family: 'Dosis', sans-serif;
   font-size: 1.8rem;
   color: var(--dark-color);
