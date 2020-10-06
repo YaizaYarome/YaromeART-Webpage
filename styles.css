@@ -452,13 +452,23 @@ img {
 .image-gallery div a {
   color: rgba(255, 255, 255, 0.6);
   font-size: 3rem;
-  position: relative;
   z-index: 100;
-  padding: 1rem 3rem;
+  width: 100%;
+  height: 100%;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 0.4rem;
   opacity: 0;
   transition: opacity 0.2s;
+}
+
+.image-gallery div a i{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-size: 4rem;
+  align-items: center;
+  justify-content: center;
+
 }
 
 /*Images Portfolio*/
@@ -850,7 +860,7 @@ input[type=submit]{
 }
 
 .waitlist ul li:last-child {
-  color: var(--yellow-solid);
+  color: var(--yellow-solid-dark);
 }
 
 /*--------------------Footer--------------------*/
