@@ -3,12 +3,14 @@
 Webpage made as an exercise to work with HTML5 and CSS3 with some Javascript content.
 The content displayed includes artwork made by myself for several commissioners.
 
-<br/>
-Live: https://yaizayarome.github.io/YaromeART-Webpage/
+<div align="center">
+ 
+  <p> <strong>Live preview:</strong> https://yaizayarome.github.io/YaromeART-Webpage/</p>
 
-<p>
+</div>
+<a href="https://yaizayarome.github.io/YaromeART-Webpage">
 <img src="https://i.imgur.com/lMmoCQN.jpg" alt="miniature"/>
-</p>
+</a>
 
 ## Features
 
