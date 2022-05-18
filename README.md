@@ -8,7 +8,7 @@ The content displayed includes artwork made by myself for several commissioners.
   <p> <strong>Live preview:</strong> https://yaizayarome.github.io/YaromeART-Webpage/</p>
 
 </div>
-<a href="https://yaizayarome.github.io/YaromeART-Webpage"  target=”_blank”>
+<a href="https://yaizayarome.github.io/YaromeART-Webpage" target="_blank" rel="noreferrer noopener">
 <img src="https://i.imgur.com/lMmoCQN.jpg" alt="miniature"/>
 </a>
 
